@@ -12,9 +12,9 @@ export default function Hero() {
           Your projects and social networks within a single link
         </h1>
         <h2 className="text-xl leading-6">
-          Create your own project's page and share it with the world
+          Create your own project's page and share it with the world.
           <br />
-          Track all engagement through clicks with Analytics 
+          Track all engagement through clicks with Analytics.
         </h2>
         <div className="flex items-center gap-2 w-full mt-[10vh]">
           <span className="text-white text-xl">theinbioproject.com</span>
