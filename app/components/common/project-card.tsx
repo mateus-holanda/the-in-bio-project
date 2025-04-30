@@ -1,8 +1,12 @@
-export default function ProjectCard() {
+interface ProjectCardProps {
+  imgPath: string
+}
+
+export default function ProjectCard({ imgPath }: ProjectCardProps) {
   return (
-    <div className="w-[430px] h-[132px] flex gap-5 bg-background-secondary p-3 rounded-[20px] border border-transparent hover:border-border-secondary">
+    <div className="w-[340px] h-[132px] flex gap-5 bg-background-secondary p-3 rounded-[20px] border border-transparent hover:border-border-secondary">
       <div className="size-24 rounded-md overflow-hidden flex-shrink-0">
-        <img src="/project1.jpg" alt="Project 1" className="w-full h-full object-cover" />
+        <img src={`/${imgPath}.jpg`} alt="Project 1" className="w-full h-full object-cover" />
       </div>
       <div className="flex flex-col gap-2">
         <span className="uppercase text-xs font-bold text-accent-green">

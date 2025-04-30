@@ -9,15 +9,15 @@ export default function UserCard() {
       <div className="size-48">
         <img src="/me.jpeg" alt="Mateus Holanda" className="rounded-full object-cover w-full h-full" />
       </div>
-      <div className="flex flex-col gap-2 w-full">
-        <div className="flex items-center gap-2">
+      <div className="flex flex-col items-center gap-2 w-full">
+        <div className="flex gap-2">
           <h3 className="text-3xl font-bold min-w-0 overflow-hidden">
             Mateus Holanda
           </h3>
         </div>
         <p className="opacity-40">"I create stuff for the internet"</p>
       </div>
-      <div className="flex flex-col gap-2 w-full">
+      <div className="flex flex-col items-center gap-2 w-full">
         <span className="uppercase text-xs font-medium">Links</span>
         <div className="flex gap-3">
           {icons.map((Icon, index) => (
